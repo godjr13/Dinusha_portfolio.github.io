@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinusha Godage | Portfolio</title>
+  <link rel="stylesheet" href="Style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!--Contact form emailjs-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+    })();
+  </script>
+</head>
+
+
+<body>
+  <header>
+    <img src="Profile.jpg" alt="Your Photo">
+    <h1>Dinusha Godage</h1>
+    <p>Electronics & Embedded Systems Developer | Robotics Enthusiast </p>
+  </header>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Embedded Systems</li>
+      <li>Arduino / AVR / ESP</li>
+      <li>PCB Design</li>
+      <li>Easy EDA / Proteus </li>
+      <li>Digital and Analog Signal Processing</li>
+      <li>Python / C / JavaScript / PHP </li>
+      <li>Data Visualisation and Analysis </li>
+      <li>Robotics</li>
+      <li>IoT</li>
+      <li>Analog Circuits</li>
+      <li>Circuit Diagnosis</li>
+      <li>PLC Programming</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <div class="title"><h1>Projects and Acomplishments</h1></div>
+    
+
+    <div class="project" data-aos="fade-up" data-aos-delay="100">
+      <h3>Greenhouse Automation</h3>
+      <p>IEEE Sri Lanka Challenge Sphere 2024 – Second Runner-Up</p>
+      <div class="row">
+        <div class="column">
+          <img class="greenhouse" src="Greenhouse_project.jpeg" alt="Self Sustaining Greenhouse" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="Team-Forsaken.jpeg" alt="Team-Forsaken" style="width:100%">
+        </div>
+      </div>
+      <p class="paragraph">Why water when it waters itself? Why guess the sun when it brings its own?<br> <br><span id="more">
+        This automated greenhouse takes care of itself.
+        With a simple twist of a knob, it shifts the seasons, tunes the light, mists the air, and warms the soil—all tailored for the whims of whichever green companion you choose.
+        Designed for sustainability, built with love for tech and nature, and crowned second runner-up at IEEE Sri Lanka's Challenge Sphere 2024, this project proves that even plants can live smarter.<br><br></span></p> <button id="readmore" onclick="readMore()">Read more...</button>
+
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-delay="100">
+      <h3>PCB design for voltage control sine wave generator</h3>
+      <video src="PCB.mp4" controls autoplay loop>
+        <source  type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p class="paragraph"><br>Designed a PCB for a Voltage-Controlled Oscillator (VCO) capable of generating stable sine wave outputs. The circuit is intended for analog synthesizer applications, with careful attention to component selection and layout for signal integrity and frequency stability. The design supports tuning via control voltage inputs.<br></p>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-delay="100">
+      <h3>Micromouse</h3>
+      <video controls>
+        <source src="wearable_alert.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
