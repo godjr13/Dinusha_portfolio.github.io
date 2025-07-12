@@ -15,7 +15,7 @@ header {
     text-align: center;
     color: #ffffff;
     padding: 60px 20px;
-    background-image: url("Banner.webp");
+    background-image: url("resources/Banner.webp");
     background-color: #32eefc;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,6 +59,7 @@ section {
     opacity: 0;
     transform: translateY(40px);
     transition: all 0.6s ease-out;
+    justify-items: center;
 }
 
 section.visible {
@@ -142,12 +143,29 @@ section.visible {
 }
 
 button{
-    background-color: #32eefc;
+    background-color: #3da5d0;
     padding: 10px;
     border-radius: 10px;
-    border: #32eefc;
+    border: #3da5d0;
 }
 
 button:hover{
-    background:#2ed9e6;
+    background:#3a9bc5;
+}
+
+.email{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.waddle{
+    height: 300px;
+    width:auto;
+}
+
+.micromouse{
+    height: 410px;
+    width: auto;
+    background-color: white;
 }

@@ -24,7 +24,7 @@
 
 <body>
   <header>
-    <img src="Profile.jpg" alt="Your Photo">
+    <img src="resources/Profile.jpg" alt="Your Photo">
     <h1>Dinusha Godage</h1>
     <p>Electronics & Embedded Systems Developer | Robotics Enthusiast </p>
   </header>
@@ -33,15 +33,20 @@
     <h2>Skills</h2>
     <ul>
       <li>Embedded Systems</li>
+      <li>Programming</li>
+      <li>C / C++ </li>
+      <li>Python / JavaScript / PHP / Node.js </li>
+      <li>IoT</li>
+      <li>Electronics</li>
       <li>Arduino / AVR / ESP</li>
       <li>PCB Design</li>
       <li>Easy EDA / Proteus </li>
+      <li>Soldering</li>
       <li>Digital and Analog Signal Processing</li>
-      <li>Python / C / JavaScript / PHP </li>
+      <li>Web and Android development </li>
       <li>Data Visualisation and Analysis </li>
       <li>Robotics</li>
-      <li>IoT</li>
-      <li>Analog Circuits</li>
+      <li>Analog and Digital Circuits</li>
       <li>Circuit Diagnosis</li>
       <li>PLC Programming</li>
       <li>Control Systems</li>
@@ -57,10 +62,10 @@
       <p>IEEE Sri Lanka Challenge Sphere 2024 – Second Runner-Up</p>
       <div class="row">
         <div class="column">
-          <img class="greenhouse" src="Greenhouse_project.jpeg" alt="Self Sustaining Greenhouse" style="width:100%">
+          <img class="greenhouse" src="resources/Greenhouse_project.jpeg" alt="Self Sustaining Greenhouse" style="width:100%">
         </div>
         <div class="column">
-          <img src="Team-Forsaken.jpeg" alt="Team-Forsaken" style="width:100%">
+          <img src="resources/Team-Forsaken.jpeg" alt="Team-Forsaken" style="width:100%">
         </div>
       </div>
       <p class="paragraph">Why water when it waters itself? Why guess the sun when it brings its own?<br> <br><span id="more">
@@ -69,10 +74,24 @@
         Designed for sustainability, built with love for tech and nature, and crowned second runner-up at IEEE Sri Lanka's Challenge Sphere 2024, this project proves that even plants can live smarter.<br><br></span></p> <button id="readmore" onclick="readMore()">Read more...</button>
 
     </div>
+    <div class="project" data-aos="fade-up" data-aos-delay="100">
+      <h3>Analog Synthesizer Design </h3>
+      <p>Final Year Project</p>
+      <div class="row">
+        <div class="column">
+          <img class="analogSynth" src="resources/synth-full.png" alt="Analog Synthesizer Design" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="resources/synth-full2.PNG" alt="Bottom layer" style="width:100%">
+        </div>
+      </div>
+      <p class="paragraph"> Final design for a sinewave synthesizer with a keyboard and octave control. Keyboard design was done using measurements from an actual keyboard. This can produce all the musical notes with a unique tone of it's own.<br><br></span>
+    </div>
+
 
     <div class="project" data-aos="fade-up" data-aos-delay="100">
       <h3>PCB design for voltage control sine wave generator</h3>
-      <video src="PCB.mp4" controls autoplay loop>
+      <video src="resources/PCB.mp4" controls autoplay loop>
         <source  type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -80,20 +99,58 @@
     </div>
 
     <div class="project" data-aos="fade-up" data-aos-delay="100">
-      <h3>Micromouse</h3>
-      <video controls>
-        <source src="wearable_alert.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <h3>Waddlebeats Android Application</h3>
+      <p>Audio Recording using several devices </p>
+      <div class="row">
+        <div class="column">
+          <img class="Waddlebeats" src="resources/waddle.jpeg" alt="Android application" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="resources/waddle2.jpeg" alt="Android Application" style="width:100%">
+        </div>
+      </div>
+      <p class="paragraph"> Android application designed as an academic project. This android app can record audio from several sources at once. After the recording is complete the app synchronizes the audio clips into one audio file creating a surround sound effect. <br><br></span>
     </div>
 
-    <!--Contact form
-    <form>
-
-    </form>-->
+    <div class="project" data-aos="fade-up" data-aos-delay="100">
+      <h3>Micromouse</h3>
+      <div class="row">
+      <div class="column">
+        <video controls class="micromouse">
+        <source src="resources/micromouse.mp4"  type="video/mp4">
+        </video>
+      </div> 
+      <div class="column">
+        <video controls class="micromouse">
+        <source src="resources/micromouse2.mp4"  type="video/mp4">
+        </video>
+      </div> 
+      
+      </div>
+      <div class="row"><p class="paragraph">Micromouse Robot made for the SLIIT Robofest 2024. This robot is able to navigate a maze all on it's own.</p></div>
+    </div>
     
+  
   </section>
 
+  <!--
+  <div class="email">
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+  
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+  
+      <label for="message">Your Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+  
+      <button type="submit">Send Email</button>
+    </form>
+  </div>
+  -->
+  
   <script src="script.js"></script>
+
 </body>
 </html>
